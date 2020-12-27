@@ -46,4 +46,5 @@ without the 100 days challenge can be found [here](https://github.com/4lhc/ROS-L
   [ros::init()](http://wiki.ros.org/roscpp/Overview/Initialization%20and%20Shutdown) and its various invocations.
   - Learned about different types of [NodeHandles](http://wiki.ros.org/roscpp/Overview/NodeHandles)
   - Learned  about various [Logging](http://wiki.ros.org/roscpp/Overview/Logging) macros
+  - [commit](https://github.com/4lhc/ROS-Learn/commit/de332e37361db77c22a53e2b7f0a70b36157ac3c)
 
