@@ -37,4 +37,13 @@ without the 100 days challenge can be found [here](https://github.com/4lhc/ROS-L
   - Tried out various console commands
   - Created a launch file to visualize the robot in rviz - [commit](https://github.com/4lhc/AMR_omnibot/commit/e5f286d3e7b4aee20e390257876a56f43ea80b9c)
 
+### Day 2:
+**Tasks**
+  - Watch [Programming for Robotics (ROS) Course 2](https://www.youtube.com/watch?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP&v=jYqDnuxTwK8&feature=youtu.be)
+
+**Progress**
+  - Learned
+  [ros::init()](http://wiki.ros.org/roscpp/Overview/Initialization%20and%20Shutdown) and its various invocations.
+  - Learned about different types of [NodeHandles](http://wiki.ros.org/roscpp/Overview/NodeHandles)
+  - Learned  about various [Logging](http://wiki.ros.org/roscpp/Overview/Logging) macros
 
