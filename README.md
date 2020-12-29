@@ -35,13 +35,15 @@ without the 100 days challenge can be found [here](https://github.com/4lhc/ROS-L
     - Gazebo
 
 **Progress**
-  - Tried out various console commands
+  - Tried out various console commands.
   - Created a launch file to visualize the robot in rviz - [commit](https://github.com/4lhc/AMR_omnibot/commit/e5f286d3e7b4aee20e390257876a56f43ea80b9c)
 
 ---
 ### Day 2:
 **Tasks**
   - Watch [Programming for Robotics (ROS) Course 2](https://www.youtube.com/watch?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP&v=jYqDnuxTwK8&feature=youtu.be)
+    - Initialization of the nodes
+    - NodeHandles
 
 **Progress**
   - Learned
@@ -54,6 +56,8 @@ without the 100 days challenge can be found [here](https://github.com/4lhc/ROS-L
 ### Day 3:
 **Tasks**
   - Watch [Programming for Robotics (ROS) Course 2](https://www.youtube.com/watch?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP&v=jYqDnuxTwK8&feature=youtu.be)
+    - Subscribers and Publishers
+    - ROS parameter server.
 
 **Progress**
   - Edit `CmakeLists.txt` to create multiple nodes.
@@ -64,5 +68,8 @@ without the 100 days challenge can be found [here](https://github.com/4lhc/ROS-L
     [plug-in](https://ros-qtc-plugin.readthedocs.io/en/latest/)
     - Fixed neovim LSP completion.
     - Got [vim-ros](https://github.com/taketwo/vim-ros/tree/master) working in noetic
+
+
+
 
 
