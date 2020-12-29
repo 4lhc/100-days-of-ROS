@@ -69,7 +69,14 @@ without the 100 days challenge can be found [here](https://github.com/4lhc/ROS-L
     - Fixed neovim LSP completion.
     - Got [vim-ros](https://github.com/taketwo/vim-ros/tree/master) working in noetic
 
+---
+### Day 4:
+**Tasks**
+  - Watch [Programming for Robotics (ROS) Course 3](https://youtu.be/_GgHFuib_LU?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP&t=696)
+    - [URDF](http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch)
 
+**Progress**
+  - Created a basic urdf (visual only) for 3-wheeled [omnibot](https://github.com/4lhc/AMR_omnibot/blob/master/src/omnibot_description/urdf/omnibot.urdf). 
 
 
 
