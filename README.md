@@ -6,8 +6,9 @@ without the 100 days challenge can be found [here](https://github.com/4lhc/ROS-L
 
 ---
 
+## Progress
 <p align="center">
- <img width="700" src="img/streak.png">
+ <img width="600" src="img/streak.png">
 </p>
 
 ---
@@ -85,6 +86,16 @@ without the 100 days challenge can be found [here](https://github.com/4lhc/ROS-L
 
 **Progress**
   - Created a basic urdf (visual only) for 3-wheeled [omnibot](https://github.com/4lhc/AMR_omnibot/blob/master/src/omnibot_description/urdf/omnibot.urdf). 
+
+---
+### Day 5:
+**Tasks**
+  - [Xacro](http://wiki.ros.org/xacro)
+
+**Progress**
+  - Created macros for wheel link and joints - [omnibot](https://github.com/4lhc/AMR_omnibot/blob/master/src/omnibot_description/urdf/omnibot.urdf). 
+. 
+
 
 
 
