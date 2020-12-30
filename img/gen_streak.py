@@ -19,14 +19,14 @@ local_repos = ['/home/sj/Projects/ROS/ROS',
 	       '/home/sj/Projects/Code/2021/100-days-of-ROS']
 
 # image options
-im_shape = (501, 81)
-im_cell_width = 20
+im_shape = (1001, 161)
+im_cell_width = 40
 im_bg = (255, 255, 255, 255)
 im_cell_fill_empty = (230, 230, 230, 255)
-colors = ['#ac4b1c', '#fca652', '#ffd57e', '#ffefa0']
+colors = ['#b2dfdb', '#80cbc4', '#4db6ac', '#26a69a']
 alpha = 'ff' #200
 im_cell_fill_full = [ImageColor.getrgb(c + alpha) for c in colors]
-im_cell_outline = im_bg
+im_cell_outline = im_bg#ImageColor.getrgb('#00796b' + alpha)
 
 
 # Creating 100 days
@@ -42,7 +42,8 @@ for cwd in local_repos:
     date_count.update(dates_stdout)
 # print(date_count)
 
-def maprange( a, b, s):
+
+def maprange(a, b, s):
     # https://rosettacode.org/wiki/Map_range#Python
     (a1, a2), (b1, b2) = a, b
     return  b1 + ((s - a1) * (b2 - b1) / (a2 - a1))
@@ -63,11 +64,15 @@ for j in range(4):
         commit_count = date_count[date_str] - 1
         if commit_count == 0:
             color = im_cell_fill_empty
+            border_color = im_bg
         else:
             color_num = maprange(commit_range, color_range, commit_count)
             color = im_cell_fill_full[ceil(color_num)]
-        draw.rectangle([0+i*iw, 0+j*iw, 20+i*iw, 20+j*iw], fill=color,
-                       outline=im_cell_outline, width=2)
+            border_color = im_cell_outline
+        draw.rectangle([0+i*iw, 0+j*iw, iw+i*iw, iw+j*iw], fill=color,
+                       outline=border_color, width=3)
 
+from PIL import ImageFilter
+img.filter(ImageFilter.GaussianBlur(10))
 img.save('streak.png', 'PNG')
 
