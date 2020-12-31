@@ -92,6 +92,19 @@
   - Created macros for wheel link and joints - [omnibot](https://github.com/4lhc/AMR_omnibot/blob/master/src/omnibot_description/urdf/omnibot.urdf). 
 . 
 
+---
+### Day 6:
+**Tasks**
+  - Watch [Programming for Robotics (ROS) Course 3](https://youtu.be/_GgHFuib_LU?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP)
+    -[TF](https://wiki.ros.org/tf2)
 
+**Progress**
+  - Tried out different cmd lines `tf` tools.
+    - `tf_monitor`, `tf_echo` and `view_frames`
+  - [Quaternion Basics](https://wiki.ros.org/tf2/Tutorials/Quaternions)
+    - Tested different quaternion operations -- Creating quaternion from rpy,
+    rotations and conversion between `tf2::Quaternion` and `geometry_msgs::Quaternion`
+  - Started writing a `tf2_static_broadcaster`
+  - [Today's Work](https://github.com/4lhc/ROS-Learn/tree/master/noetic_test_ws/src/tf_pkg)
 
 
