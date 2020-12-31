@@ -4,7 +4,7 @@
 Color class for gen_streak
 Author: Sreejith S
 
-palletes: [kawanet/material-colors.json]
+palettes: [kawanet/material-colors.json]
 """
 
 from PIL import ImageColor
