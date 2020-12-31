@@ -1,8 +1,4 @@
-# 100 Days Of ROS 
-
-## I will do ROS development for the next 100 days. 
-I will be using ROS C++ client library. My previous attempt with rospy
-without the 100 days challenge can be found [here](https://github.com/4lhc/ROS-Learn)
+# \#100DaysOfROS
 
 ---
 
