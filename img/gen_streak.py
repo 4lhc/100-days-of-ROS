@@ -15,8 +15,8 @@ from color import Color
 
 start_date = '2020-12-25' #yyyy-mm-dd
 local_repos = ['/home/sj/Projects/ROS/ROS',
-							 '/home/sj/Projects/ROS/AMR_omnibot',
-							 '/home/sj/Projects/Code/2021/100-days-of-ROS']
+               '/home/sj/Projects/ROS/AMR_omnibot',
+               '/home/sj/Projects/Code/2021/100-days-of-ROS']
 
 # image options
 c = Color(palette='purple', alpha='ff')
@@ -27,7 +27,8 @@ im_cell_width = 40
 # Creating 100 days
 date_format = '%Y-%m-%d'
 sd = datetime.strptime(start_date, date_format)
-dates = [(sd + timedelta(days=i)).strftime(date_format) for i in range(100)]
+dates = [(sd + timedelta(days=i+1)).strftime(date_format) for i in range(100)]
+print(dates)
 date_count = Counter(dates)
 
 # Counting commits in local_repos
@@ -48,12 +49,13 @@ day = 0
 for j in range(4):
     for i in range(25):
         date_str = dates[day]
-        day += 1
         commit_count = date_count[date_str] - 1
+        print(day, dates[day], commit_count)
         color = c.get_cell_bg_maprange(commit_range, commit_count)
         border_color = c.get_cell_outline()
         draw.rectangle([0+i*iw, 0+j*iw, iw+i*iw, iw+j*iw], fill=color,
                        outline=border_color, width=3)
+        day += 1
 
 img.save('streak.png', 'PNG')
 
