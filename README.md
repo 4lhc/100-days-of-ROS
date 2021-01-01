@@ -89,8 +89,7 @@
   - [Xacro](http://wiki.ros.org/xacro)
 
 **Progress**
-  - Created macros for wheel link and joints - [omnibot](https://github.com/4lhc/AMR_omnibot/blob/master/src/omnibot_description/urdf/omnibot.urdf). 
-. 
+  - Created macros for wheel link and joints - [omnibot](https://github.com/4lhc/AMR_omnibot/blob/master/src/omnibot_description/urdf/omnibot.urdf).
 
 ---
 ### Day 6:
@@ -99,7 +98,7 @@
     -[TF](https://wiki.ros.org/tf2)
 
 **Progress**
-  - Tried out different cmd lines `tf` tools.
+  - Tried out different cmd line `tf` tools.
     - `tf_monitor`, `tf_echo` and `view_frames`
   - [Quaternion Basics](https://wiki.ros.org/tf2/Tutorials/Quaternions)
     - Tested different quaternion operations -- Creating quaternion from rpy,
@@ -107,4 +106,14 @@
   - Started writing a `tf2_static_broadcaster`
   - [Today's Work](https://github.com/4lhc/ROS-Learn/tree/master/noetic_test_ws/src/tf_pkg)
 
+  ---
+### Day 7:
+**Tasks**
+  - tf2
+
+**Progress**
+  - Wrote tf2 broadcaster.
+    - [`tf2_ros::TransformBroadcaster`](http://docs.ros.org/en/jade/api/tf2_ros/html/c++/classtf2__ros_1_1TransformBroadcaster.html)
+    - Creating callback functions for `/odom` topic
+    - [Today's Work](https://github.com/4lhc/ROS-Learn/tree/master/noetic_test_ws/src/tf_pkg)
 
