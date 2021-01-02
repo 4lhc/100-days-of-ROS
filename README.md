@@ -4,16 +4,18 @@
 
 ## Progress
 <p align="center">
+ <a href='https://github.com/4lhc/100-days-of-ROS/blob/main/img/gen_streak.py'>
  <img width="600" src="img/streak.png">
+ </a>
 </p>
 
 ---
 
 ## Goals
- - Improve ROS1 proficiency
- - Learn ROS2
- - Learn to create gazebo plugins
- - Sensor Fusion and SLAM with ROS 
+ - Improve ROS1 and `roscpp` proficiency.
+ - Learn ROS2.
+ - Learn to create gazebo plugins.
+ - Sensor Fusion and SLAM with ROS.
 
 
 
@@ -106,7 +108,7 @@
   - Started writing a `tf2_static_broadcaster`
   - [Today's Work](https://github.com/4lhc/ROS-Learn/tree/master/noetic_test_ws/src/tf_pkg)
 
-  ---
+---
 ### Day 7:
 **Tasks**
   - tf2
@@ -117,3 +119,12 @@
     - Creating callback functions for `/odom` topic
     - [Today's Work](https://github.com/4lhc/ROS-Learn/tree/master/noetic_test_ws/src/tf_pkg)
 
+---
+### Day 8:
+**Tasks**
+  - Today I planned to finish adding lidar and meshes to the robot urdf. But
+  spend too much time on freecad trying to fix the origin of an imported wheels. 
+
+**Progress**
+  - Created meshes for
+  [`omnibot_description`](https://github.com/4lhc/AMR_omnibot/tree/master/src/omnibot_description/meshes) urdf geometry.

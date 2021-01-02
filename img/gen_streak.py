@@ -28,7 +28,6 @@ im_cell_width = 40
 date_format = '%Y-%m-%d'
 sd = datetime.strptime(start_date, date_format)
 dates = [(sd + timedelta(days=i+1)).strftime(date_format) for i in range(100)]
-print(dates)
 date_count = Counter(dates)
 
 # Counting commits in local_repos
@@ -50,7 +49,6 @@ for j in range(4):
     for i in range(25):
         date_str = dates[day]
         commit_count = date_count[date_str] - 1
-        print(day, dates[day], commit_count)
         color = c.get_cell_bg_maprange(commit_range, commit_count)
         border_color = c.get_cell_outline()
         draw.rectangle([0+i*iw, 0+j*iw, iw+i*iw, iw+j*iw], fill=color,
