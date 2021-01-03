@@ -137,3 +137,7 @@
 **Progress**
   - Created base and started assembly.
   - Fix origin errors with meshes
+
+  <p align="left">
+        <img width="200" src="img/freecad_omnibot.png">
+  </p>
