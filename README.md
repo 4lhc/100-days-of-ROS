@@ -128,3 +128,12 @@
 **Progress**
   - Created meshes for
   [`omnibot_description`](https://github.com/4lhc/AMR_omnibot/tree/master/src/omnibot_description/meshes) urdf geometry.
+
+---
+### Day 9:
+**Tasks**
+  - Start work on CAD model 
+
+**Progress**
+  - Created base and started assembly.
+  - Fix origin errors with meshes
