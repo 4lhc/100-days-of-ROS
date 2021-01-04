@@ -141,3 +141,21 @@
   <p align="left">
         <img width="200" src="img/freecad_omnibot.png">
   </p>
+
+---
+### Day 10:
+**Tasks**
+  -  Watch [Programming for Robotics (ROS) Course 4](https://www.youtube.com/watch?v=feXC7aQrkeM&list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP&index=4)
+    - Create a service file
+    - Write a service client in `roscpp`
+
+**Progress**
+  - Created a service client and service message. 
+  - Had trouble with empty service request [TODO]
+  - [Today's Work](https://github.com/4lhc/AMR_omnibot/tree/master/src/omnibot_teleop/src)
+
+**Note**
+  - Designing the omnibot model requires a sizeable chunk of time,
+  which I'm lacking this week. Hence, I decided to resume learning `roscpp` and
+  put the robot design on hold for the week. The current CAD model is for
+  visualization only and it is not what something I want it to be. 
