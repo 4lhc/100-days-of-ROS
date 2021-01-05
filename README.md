@@ -159,3 +159,18 @@
   which I'm lacking this week. Hence, I decided to resume learning `roscpp` and
   put the robot design on hold for the week. The current CAD model is for
   visualization only and it is not what something I want it to be. 
+
+---
+### Day 11:
+**Tasks**
+  - Continue with [ROS
+  Services](http://wiki.ros.org/roscpp/Overview/Services#Service_definitions.2C_request_messages_and_response_messages)
+    - Write a service server in `roscpp`
+
+**Progress**
+  - Created a service server.
+  - Learned to create persistent connections to services
+  - Different callback types that can be used for the ServiceServer: Functions, Class
+  Methods and Functors
+  - Create headers to pass meta information about the client.
+  - [Today's Work](https://github.com/4lhc/AMR_omnibot/tree/master/src/omnibot_teleop/src)
