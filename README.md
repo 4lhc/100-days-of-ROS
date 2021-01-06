@@ -174,3 +174,14 @@
   Methods and Functors
   - Create headers to pass meta information about the client.
   - [Today's Work](https://github.com/4lhc/AMR_omnibot/tree/master/src/omnibot_teleop/src)
+
+---
+### Day 12:
+**Tasks**
+  - Learn [Timers](http://wiki.ros.org/roscpp/Overview/Timers)
+
+**Progress**
+  - Created a Timer callbacks of different flavours - Function, class methods.
+  - Explored various members of `struct TimerEvent` - `last_expected`,
+  `last_real` etc
+  - [Today's Work](https://github.com/4lhc/ROS-Learn/blob/master/noetic_test_ws/src/test_pkg_1/src/test_pkg_1_timer_node.cpp)
