@@ -16,6 +16,7 @@
  - Learn ROS2.
  - Learn to create gazebo plugins.
  - Sensor Fusion and SLAM with ROS.
+ - Build a ROS enabled AMR
 
 
 
@@ -185,3 +186,23 @@
   - Explored various members of `struct TimerEvent` - `last_expected`,
   `last_real` etc
   - [Today's Work](https://github.com/4lhc/ROS-Learn/blob/master/noetic_test_ws/src/test_pkg_1/src/test_pkg_1_timer_node.cpp)
+
+---
+### Day 13:
+**Tasks**
+  - Learn [Clock](http://wiki.ros.org/Clock) &
+  [Time](http://wiki.ros.org/roscpp/Overview/Time)
+  - Learn [Callbacks & Spinning](http://wiki.ros.org/roscpp/Overview/Callbacks%20and%20Spinning)
+
+**Progress**
+  - Learned about `ros::Time`, `ros::Duration` and `ros::Rate` examples.
+  - Use `WallTime`, `WallDuration` and `WallRate` when wall-clock is needed.
+  - Use `Timers` over `Rate`.
+  - `Rate` tries to maintain rate for a loop.
+  - Learned about single threaded spinners and experimented with `ros::spin()`
+  and `ros::spinOnce()`
+  - Found couple of good sources to learn more about ROS callbacks and spinners
+    - [Do Timers run in different threads?](https://answers.ros.org/question/367223/do-timers-run-in-different-threads-roscpp/?answer=367455#post-id-367455)
+    - [ROS Spinning, Threading,
+    Queuing by Kohei Otsuka](https://levelup.gitconnected.com/ros-spinning-threading-queuing-aac9c0a793f)
+

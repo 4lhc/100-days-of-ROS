@@ -11,7 +11,7 @@ import subprocess
 from datetime import datetime, timedelta
 from collections import Counter
 from color import Color
-
+import sys
 
 start_date = '2020-12-25' #yyyy-mm-dd
 local_repos = ['/home/sj/Projects/ROS/ROS',
@@ -19,7 +19,11 @@ local_repos = ['/home/sj/Projects/ROS/ROS',
                '/home/sj/Projects/Code/2021/100-days-of-ROS']
 
 # image options
-c = Color(palette='purple', alpha='ff')
+try:
+    c = Color(palette=sys.argv[1], alpha='ff')
+except IndexError:
+    c = Color(palette='yellow', alpha='ff')
+
 im_shape = (1001, 161)
 im_cell_width = 40
 
