@@ -208,7 +208,7 @@
   - [Today's Work](https://github.com/4lhc/ROS-Learn/commit/46a366141653e44a92f8ad17909a891e1be94230)
 
 ---
-### Day 13:
+### Day 14:
 **Tasks**
  - Try out some ros packages and build something interesting
    - `aruco_ros` for 6-dof pose estimation. 
