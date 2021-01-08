@@ -217,5 +217,5 @@
 
 **Progress**
   - [`aruco_ros`](https://github.com/pal-robotics/aruco_ros) doesn't have noetic 
-    support yet, so I created a fork with which works in noetic [`aruco_ros-noetic`](https://github.com/4lhc/aruco_ros/tree/noetic-devel)
+    support yet, so I created a fork [`aruco_ros-noetic`](https://github.com/4lhc/aruco_ros/tree/noetic-devel)
   - Successfully installed follow_waypoints
