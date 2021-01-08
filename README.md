@@ -182,7 +182,7 @@
   - Learn [Timers](http://wiki.ros.org/roscpp/Overview/Timers)
 
 **Progress**
-  - Created a Timer callbacks of different flavours - Function, class methods.
+  - Created Timer callbacks of different flavours - Function, class methods.
   - Explored various members of `struct TimerEvent` - `last_expected`,
   `last_real` etc
   - [Today's Work](https://github.com/4lhc/ROS-Learn/blob/master/noetic_test_ws/src/test_pkg_1/src/test_pkg_1_timer_node.cpp)
@@ -207,3 +207,15 @@
     Queuing by Kohei Otsuka](https://levelup.gitconnected.com/ros-spinning-threading-queuing-aac9c0a793f)
   - [Today's Work](https://github.com/4lhc/ROS-Learn/commit/46a366141653e44a92f8ad17909a891e1be94230)
 
+---
+### Day 13:
+**Tasks**
+ - Try out some ros packages and build something interesting
+   - `aruco_ros` for 6-dof pose estimation. 
+   - `follow_waypoints` 
+
+
+**Progress**
+  - [`aruco_ros`](https://github.com/pal-robotics/aruco_ros) doesn't have noetic 
+    support yet, so I created a fork with which works in noetic [`aruco_ros-noetic`](https://github.com/4lhc/aruco_ros/tree/noetic-devel)
+  - Successfully installed follow_waypoints
