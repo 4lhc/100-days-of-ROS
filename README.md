@@ -219,3 +219,15 @@
   - [`aruco_ros`](https://github.com/pal-robotics/aruco_ros) doesn't have noetic 
     support yet, so I created a fork [`aruco_ros-noetic`](https://github.com/4lhc/aruco_ros/tree/noetic-devel)
   - Successfully installed follow_waypoints
+
+---
+### Day 15:
+**Tasks**
+ - Create launch file for aruco marker publisher.
+ - Write a node to check if a given list of markers are present in the world
+
+**Progress**
+ - Created a world with aruco markers
+   - Generated aruco marker models to be added to the world
+ - Launch file for `marker_publisher`
+ - Started writing a marker counter node.
