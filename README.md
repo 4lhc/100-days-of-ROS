@@ -230,4 +230,22 @@
  - Created a world with aruco markers
    - Generated aruco marker models to be added to the world
  - Launch file for `marker_publisher`
- - Started writing a marker counter node.
+ - Started writing a marker counter
+ [node](https://github.com/4lhc/ROS-Learn/commit/2bc6c143c091e3878df665778b026a9ccf72c164). 
+
+
+---
+### Day 16:
+**Tasks**
+ - Continue yesterday's work 
+
+**Progress**
+ - Issues: After moving the marker models to local directory, the markers were visible
+ in gazebo, but were not visible via camera plugin output. ie; the markers were
+ invisible when the camera topic is visualized in `rqt_gui`
+  - As a temporary fix, the models were moved to `~/.gazebo/models`
+ - Finished writing a node to check if a list of aruco markers are present in the
+ world.
+ [link](https://github.com/4lhc/ROS-Learn/blob/master/AMR_ws/src/custom_bot_nav/src/custom_bot_check_marker.cpp)
+
+
