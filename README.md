@@ -248,4 +248,12 @@
  world.
  [link](https://github.com/4lhc/ROS-Learn/blob/master/AMR_ws/src/custom_bot_nav/src/custom_bot_check_marker.cpp)
 
+---
+### Day 17:
+**Tasks**
+ - [`Actionlib`](http://wiki.ros.org/actionlib)
+ - Write an actionclient for
+ `move_base` to send waypoints to the robot.
 
+**Progress**
+ - Started creating an action client for move_base
