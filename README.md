@@ -257,3 +257,17 @@
 
 **Progress**
  - Started creating an [action client](https://github.com/4lhc/ROS-Learn/tree/master/AMR_ws/src/custom_bot_nav/src) for move_base.
+
+---
+### Day 18:
+**Tasks**
+  - Finish writing action client for move_base
+  - Load waypoints to rosparam server from yaml file.
+
+**Progress**
+  - Successfully completed waypoint mission with move_base action client.
+  [link](https://github.com/4lhc/ROS-Learn/blob/master/AMR_ws/src/custom_bot_nav/src/custom_bot_waypoints.cpp)
+  - Created yaml file with params (waypoints and markers), loaded it into
+  parameter server and read it from the node.
+  - Fix inflation radius to prevent the robot from getting stuck in the maze
+  world.
