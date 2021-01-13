@@ -271,3 +271,15 @@
   parameter server and read it from the node.
   - Fix inflation radius to prevent the robot from getting stuck in the maze
   world.
+
+---
+### Day 19:
+**Tasks**
+  - Continue learning [actionlib](http://wiki.ros.org/actionlib_tutorials/Tutorials)
+
+**Progress**
+  - Created an action
+  [message.](https://github.com/4lhc/ROS-Learn/blob/master/noetic_test_ws/src/robot_msgs/action/Blink.action)
+  - Wrote an action
+  [client.](https://github.com/4lhc/ROS-Learn/blob/master/noetic_test_ws/src/robot/src/blink_action_client.cpp)
+  - Started writing action [server.](https://github.com/4lhc/ROS-Learn/blob/master/noetic_test_ws/src/robot/src/blink_action_server.cpp)
