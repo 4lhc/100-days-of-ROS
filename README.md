@@ -283,3 +283,17 @@
   - Wrote an action
   [client.](https://github.com/4lhc/ROS-Learn/blob/master/noetic_test_ws/src/robot/src/blink_action_client.cpp)
   - Started writing action [server.](https://github.com/4lhc/ROS-Learn/blob/master/noetic_test_ws/src/robot/src/blink_action_server.cpp)
+
+---
+### Day 20:
+**Tasks**
+  - Today I try to setup and test [rosserial](http://wiki.ros.org/rosserial) on an arduino mega and a tiva
+  evaluation board (TM4C123GXL).
+
+
+**Progress**
+  - Installed `rosserial-arduino`
+    - In the IDE, library version 0.7.9 seems to work, while the latest verison
+    (0.9.1) available fails to compile the sketch.
+    -  After uploading the sketch, `rosrun rosserial_python serial_node.py
+    /dev/ttyUSB0` was run to rosserial client application.
