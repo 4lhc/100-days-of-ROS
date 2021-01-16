@@ -297,3 +297,19 @@
     (0.9.1) available fails to compile the sketch.
     -  After uploading the sketch, `rosrun rosserial_python serial_node.py
     /dev/ttyUSB0` was run to rosserial client application.
+
+
+---
+Day skipped due to academic work.
+
+---
+### Day 21:
+**Tasks**
+ - `actionlib` - Write simpleActionServer with GoalCallBack.
+
+**Progress**
+ - I rewrote the action server script that I wrote on Day 19, with goalcallback.
+ I struggled a bit with the roswiki tutorials on actionlib. Need to find
+ a better resource to learn. 
+ - Note: Today's commit will count towards the next day, as I am commiting after
+ midnight.
