@@ -310,6 +310,15 @@ Day skipped due to academic work.
 **Progress**
  - I rewrote the action server script that I wrote on Day 19, with goalcallback.
  I struggled a bit with the roswiki tutorials on actionlib. Need to find
- a better resource to learn. 
- - Note: Today's commit will count towards the next day, as I am commiting after
+ a better resource to learn.
+ - Note: In the streak tracker, today's commit will count towards the next day, as I am commiting after
  midnight.
+
+---
+### Day 22:
+**Tasks**
+ - [`rviz` visualisation.](http://wiki.ros.org/visualization/Tutorials)
+ - `actionlib` will be put on hold until I find a better tutorial.
+
+**Progress**
+ - Started writing rviz marker visualisation
