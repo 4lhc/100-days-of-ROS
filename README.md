@@ -322,3 +322,11 @@ Day skipped due to academic work.
 
 **Progress**
  - Started writing rviz marker visualisation
+
+---
+### Day 23:
+**Tasks**
+ - [`rviz` visualisation.](http://wiki.ros.org/visualization/Tutorials)
+
+**Progress**
+ - Learned to add basic shapes to rviz
